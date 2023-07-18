@@ -13,6 +13,8 @@ name: Create and publish a Docker image
 on:
   push:
     branches: ["main"]
+  Schedule: 
+    - cron: '15 1 * * *'
 
 env:
   REGISTRY: ghcr.io
