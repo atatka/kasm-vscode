@@ -13,7 +13,7 @@ name: Create and publish a Docker image
 on:
   push:
     branches: ["main"]
-  Schedule: 
+  schedule:
     - cron: '15 1 * * *'
 
 env:
