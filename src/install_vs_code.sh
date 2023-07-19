@@ -25,7 +25,8 @@ apt-get install -y htop curl wget nano zsh mc ncdu tmux \
     gawk \
     neofetch \
     rsync \
-    telnet
+    telnet \
+    iputils-ping
 
 # Cleanup
 if [ -z ${SKIP_CLEAN+x} ]; then
