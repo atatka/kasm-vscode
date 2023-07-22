@@ -13,9 +13,8 @@ chmod +x $HOME/Desktop/code.desktop
 chown 1000:1000 $HOME/Desktop/code.desktop
 rm vs_code.deb
 
-# Conveniences for python development
-apt-get update
-apt-get upgrade
+apt-get update && apt-get upgrade -y
+
 apt-get install -y htop curl wget nano zsh mc ncdu tmux \
     build-essential libssl-dev automake autoconf libncurses5-dev \
     dnsutils net-tools \
